@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: visible;
+}
+
+.app-container {
+  background: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG9rbzRldzljM3p3ZWFqcTUxaXVyYzZ5OGxscTc5NmRlMzd1dXY4bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aYVA7vPUr2FbMXtX1Y/giphy.gif");
+  background-size: 100px ;
+  height: 200vh;
+}
+
+.shadow-text {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
